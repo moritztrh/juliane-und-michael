@@ -929,6 +929,8 @@ let addMenuItem = (match) => {
     case "Vegetarisch":
       text = "Risotto | Bete | Spitzkohl | Zitrus";
       break;
+    default:
+      text = "Spaghetti";
   }
 
   var container = document.createElement("div");
